@@ -1,12 +1,12 @@
 {
-  "name": "@/utils_cp/button",
+  "name": "utils_cp/button",
   "version": "0.0.1",
   "description": "",
   
   "main": "index.js",
   "scripts": {
     "test": "echo test",
-    "build":"echo build",
+    "build":"vite build",
     "preview":"echo preview"
   },
   "keywords": ["cp","vue","comp"],
