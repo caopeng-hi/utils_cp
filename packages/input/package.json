@@ -1,17 +1,16 @@
 {
-  "name": "utils_cp/button",
+  "name": "utils_cp/input",
   "version": "0.0.1",
   "description": "",
   
-  "main": "./dist/utils_cp-button.mjs",
-  "module": "./dist/utils_cp-button.mjs",
+  "main": "./dist/utils_cp-input.mjs",
+  "module": "./dist/utils_cp-input.mjs",
   "exports": {
     ".": {
-      "require": "./dist/utils_cp-button.umd.js",
-      "module": "./dist/utils_cp-button.mjs"
+      "require": "./dist/utils_cp-input.umd.js",
+      "module": "./dist/utils_cp-input.mjs"
     }
   },
-
   "scripts": {
     "test": "echo test",
     "build":"vite build",
@@ -28,7 +27,6 @@
   "bugs": { 
     "url" : "https://github.com/caopeng-hi/utils_cp/issues"
   },
-
   "types": "",
 
 

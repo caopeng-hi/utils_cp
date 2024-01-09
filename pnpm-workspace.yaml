@@ -3,3 +3,5 @@ packages:
   - docs
   #packages是组件的包，被划分成为一个独立的模块
   - packages/*
+  # 测试模块
+  - demo

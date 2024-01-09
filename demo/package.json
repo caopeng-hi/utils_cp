@@ -5,7 +5,7 @@
     "dev": "vite dev"
   },
   "dependencies": {
-    "@openxui/ui": "workspace:^"
+    "utils_cp/ui": "workspace:^"
   },
   "devDependencies": {
   }

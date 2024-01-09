@@ -28,10 +28,28 @@ importers:
         specifier: ^5.0.11
         version: 5.0.11(@types/node@20.10.7)(sass@1.69.7)
 
+  demo:
+    dependencies:
+      utils_cp/ui:
+        specifier: workspace:^
+        version: link:../packages/ui
+
   docs: {}
 
   packages/button:
     dependencies:
+      utils_cp/shared:
+        specifier: workspace:^
+        version: link:../shared
+      vue:
+        specifier: '>=3.0.0'
+        version: 3.4.6(typescript@5.3.3)
+
+  packages/input:
+    dependencies:
+      utils_cp/shared:
+        specifier: workspace:^
+        version: link:../shared
       vue:
         specifier: '>=3.0.0'
         version: 3.4.6(typescript@5.3.3)
@@ -44,6 +62,21 @@ importers:
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
+
+  packages/ui:
+    dependencies:
+      utils_cp/button:
+        specifier: workspace:^
+        version: link:../button
+      utils_cp/input:
+        specifier: workspace:^
+        version: link:../input
+      utils_cp/shared:
+        specifier: workspace:^
+        version: link:../shared
+      vue:
+        specifier: '>=3.0.0'
+        version: 3.4.6(typescript@5.3.3)
 
 packages:
 

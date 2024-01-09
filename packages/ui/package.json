@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "",
   "keywords": ["cp", "vue", "comp"],
-  "author": "OpenX",
+  "author": "pengCao",
   "license": "MIT",
   "homepage": "https://github.com/caopeng-hi/utils_cp/main/README.md",
   "repository": {
@@ -35,9 +35,9 @@
     "vue": ">=3.0.0"
   },
   "dependencies": {
-    "@openxui/button": "workspace:^",
-    "@openxui/input": "workspace:^",
-    "@openxui/shared": "workspace:^"
+    "utils_cp/button": "workspace:^",
+    "utils_cp/input": "workspace:^",
+    "utils_cp/shared": "workspace:^"
   },
   "devDependencies": {}
 }

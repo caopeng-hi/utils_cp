@@ -4,7 +4,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: "./src/index.ts",
-      name: "utils_cp-ui",
+      name: "utils_cpUi",
       fileName: "utils_cp-ui",
     },
 
@@ -12,7 +12,6 @@ export default defineConfig({
 
     rollupOptions: {
       external: [/utils_cp.*/, "vue"],
-
       output: {},
     },
   },

@@ -1,11 +1,18 @@
 {
   "name": "utils_cp/shared",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "a utils of ui lib",
+  "main": "./dist/utils_cp-shared.umd.js",
+  "module": "./dist/utils_cp-shared.mjs",
+  "exports": {
+    ".": {
+      "require": "./dist/utils_cp-shared.umd.js",
+      "module": "./dist/utils_cp-shared.mjs"
+    }
+  },
   "scripts": {
     "test": "echo test",
-    "build": "echo build",
+    "build": "vite build",
     "preview": "echo preview"
   },
   "keywords": [
