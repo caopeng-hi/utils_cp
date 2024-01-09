@@ -1,0 +1,5 @@
+packages:
+  # docs是一个文档描述，应该被划分成一个独立的模块
+  - docs
+  #packages是组件的包，被划分成为一个独立的模块
+  - packages/*

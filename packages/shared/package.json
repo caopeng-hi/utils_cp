@@ -1,0 +1,24 @@
+{
+  "name": "@/utils_cp/button",
+  "version": "0.0.1",
+  "description": "",
+  
+  "main": "index.js",
+  "scripts": {
+    "test": "echo test",
+    "build":"echo build",
+    "preview":"echo preview"
+  },
+  "keywords": ["cp","vue","comp"],
+  "author": "pengCao",
+  "license": "MIT",
+   "homepage": "https://github.com/caopeng-hi/utils_cp/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caopeng-hi/utils_cp"
+  },
+  "bugs": { 
+    "url" : "https://github.com/caopeng-hi/utils_cp/issues"
+  }
+
+}

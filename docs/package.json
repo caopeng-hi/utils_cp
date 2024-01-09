@@ -1,0 +1,14 @@
+{
+  "name": "utils_cp/docs",
+  "version": "1.0.0",
+  "description": "repo docs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo dev",
+    "build": "echo build"
+  },
+  "private":true,
+  "keywords": ["cp"],
+  "author": "pengCao",
+  "license": "MIT"
+}
