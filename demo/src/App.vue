@@ -6,5 +6,5 @@
 </template>
 
 <script setup lang="ts">
-import { Button } from "utils_cp/ui";
+import { Button, Input } from "utils_cp/ui";
 </script>

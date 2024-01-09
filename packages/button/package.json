@@ -8,7 +8,8 @@
   "exports": {
     ".": {
       "require": "./dist/utils_cp-button.umd.js",
-      "module": "./dist/utils_cp-button.mjs"
+      "module": "./dist/utils_cp-button.mjs",
+      "types": "./dist/index.d.ts"
     }
   },
 
@@ -29,7 +30,7 @@
     "url" : "https://github.com/caopeng-hi/utils_cp/issues"
   },
 
-  "types": "",
+  "types": "./dist/index.d.ts",
 
 
   "files": [

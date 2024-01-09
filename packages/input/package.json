@@ -8,7 +8,8 @@
   "exports": {
     ".": {
       "require": "./dist/utils_cp-input.umd.js",
-      "module": "./dist/utils_cp-input.mjs"
+      "module": "./dist/utils_cp-input.mjs",
+       "types": "./dist/index.d.ts"
     }
   },
   "scripts": {
@@ -27,7 +28,7 @@
   "bugs": { 
     "url" : "https://github.com/caopeng-hi/utils_cp/issues"
   },
-  "types": "",
+   "types": "./dist/index.d.ts",
 
 
   "files": [

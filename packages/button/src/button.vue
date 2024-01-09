@@ -5,7 +5,6 @@
 </template>
 
 <script setup lang="ts">
-//@ts-ignore
 import { hello } from "utils_cp/shared";
 
 const props = withDefaults(
