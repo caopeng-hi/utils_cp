@@ -1,11 +1,13 @@
 {
   "name": "utils_cp",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.2",
+    "sass": "^1.69.7",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11"
   },
-  "author": "",
-  "license": "MTI"
+  "dependencies": {
+    "@types/node": "^20.10.7",
+    "vue": "^3.4.6"
+  }
 }
