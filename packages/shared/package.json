@@ -1,24 +1,30 @@
 {
-  "name": "@/utils_cp/button",
+  "name": "utils_cp/shared",
   "version": "0.0.1",
   "description": "",
-  
   "main": "index.js",
   "scripts": {
     "test": "echo test",
-    "build":"echo build",
-    "preview":"echo preview"
+    "build": "echo build",
+    "preview": "echo preview"
   },
-  "keywords": ["cp","vue","comp"],
+  "keywords": [
+    "cp",
+    "vue",
+    "comp"
+  ],
   "author": "pengCao",
   "license": "MIT",
-   "homepage": "https://github.com/caopeng-hi/utils_cp/main/README.md",
+  "homepage": "https://github.com/caopeng-hi/utils_cp/main/README.md",
   "repository": {
     "type": "git",
     "url": "https://github.com/caopeng-hi/utils_cp"
   },
-  "bugs": { 
-    "url" : "https://github.com/caopeng-hi/utils_cp/issues"
+  "bugs": {
+    "url": "https://github.com/caopeng-hi/utils_cp/issues"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.202",
+    "lodash": "^4.17.21"
   }
-
 }

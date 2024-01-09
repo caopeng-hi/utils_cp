@@ -4,8 +4,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: "./src/index.ts",
-      name: "OpenxuiShared",
-      fileName: "openxui-shared",
+      name: "utils_cp-ui",
+      fileName: "utils_cp-ui",
     },
 
     minify: false,

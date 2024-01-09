@@ -36,7 +36,14 @@ importers:
         specifier: '>=3.0.0'
         version: 3.4.6(typescript@5.3.3)
 
-  packages/shared: {}
+  packages/shared:
+    dependencies:
+      '@types/lodash':
+        specifier: ^4.14.202
+        version: 4.14.202
+      lodash:
+        specifier: ^4.17.21
+        version: 4.17.21
 
 packages:
 
@@ -386,6 +393,10 @@ packages:
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==, tarball: https://registry.npmmirror.com/@types/estree/-/estree-1.0.5.tgz}
     dev: true
 
+  /@types/lodash@4.14.202:
+    resolution: {integrity: sha512-OvlIYQK9tNneDlS0VN54LLd5uiPCBOp7gS5Z0f1mjoJYBrtStzgmJBxONW3U6OZqdtNzZPmn9BS/7WI7BFFcFQ==, tarball: https://registry.npmmirror.com/@types/lodash/-/lodash-4.14.202.tgz}
+    dev: false
+
   /@types/node@20.10.7:
     resolution: {integrity: sha512-fRbIKb8C/Y2lXxB5eVMj4IU7xpdox0Lh8bUPEdtLysaylsml1hOOx1+STloRs/B9nf7C6kPRmmg/V7aQW7usNg==, tarball: https://registry.npmmirror.com/@types/node/-/node-20.10.7.tgz}
     dependencies:
@@ -591,6 +602,10 @@ packages:
     resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==, tarball: https://registry.npmmirror.com/is-number/-/is-number-7.0.0.tgz}
     engines: {node: '>=0.12.0'}
     dev: true
+
+  /lodash@4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==, tarball: https://registry.npmmirror.com/lodash/-/lodash-4.17.21.tgz}
+    dev: false
 
   /magic-string@0.30.5:
     resolution: {integrity: sha512-7xlpfBaQaP/T6Vh8MO/EqXSW5En6INHEvEXQiuff7Gku0PWjU3uf6w/j9o7O+SpB5fOAkrI5HeoNgwjEO0pFsA==, tarball: https://registry.npmmirror.com/magic-string/-/magic-string-0.30.5.tgz}
