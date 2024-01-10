@@ -1,6 +1,6 @@
 <template>
-  <button class="openx-button" @click="clickHandler">
-    <slot></slot>
+  <button class="test-class" @click="clickHandler">
+    <slot />
   </button>
 </template>
 
@@ -20,3 +20,12 @@ function clickHandler() {
   hello(props.text);
 }
 </script>
+<style lang="scss">
+.test-class {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+</style>

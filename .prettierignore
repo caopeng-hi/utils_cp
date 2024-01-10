@@ -1,0 +1,3 @@
+# prettierignore  ignore prettier formatting
+node_modules
+dist
